@@ -1,0 +1,106 @@
+*{
+background-color: black;
+color: blanchedalmond;
+}
+body{
+    font-family: 'Mukta', sans-serif;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px 15px 15px;
+    font-family: 'Indie Flower', cursive;
+    position: static;
+}
+.navbar-right{
+    float: right;
+}
+ul :hover{
+   
+    color: blue;
+    
+}
+.a{
+    text-decoration: none;
+}
+.logo{
+    font-size: large;
+    text-decoration: none;
+}
+.historia{
+    font-size: 16px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px blanchedalmond solid;
+    margin-bottom: 20px;
+}
+#amigos{
+    text-align: center;
+    
+}
+.container{
+    
+    background-color: black;
+    width: 800px;
+    padding: 10px;
+  }
+  
+  
+  
+  ul.slider{
+    position: relative;
+    width: 900px;
+    height: 600px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: 1000px;
+      height: 600px;
+      transition: opacity .5s;
+      background:black;
+  }
+  
+  ul.slider li img{
+    width: 1300px;
+    height: 600px;
+    margin-right: 10px;
+    margin-left: 10px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 150px;
+  }
+  /* CARUSEL */
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: blanchedalmond;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
